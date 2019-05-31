@@ -16,8 +16,8 @@
             in Pita – frittierte Kartoffeln, Salat, Taratour- und Harissasauce
         </li>
     </ul>
-    <div>Pita-Roll Klassiker:<span>5,50 EUR</span></div>
-    <div>Als Tellergericht:<span>7,50 EUR</span></div>
+    <div>Pita-Roll Klassiker:<span>6,00 EUR</span></div>
+    <div>Als Tellergericht:<span>8,50 EUR</span></div>
     <h4>Pita-Roll mit Wunschfüllung:</h4>
-    <div>Wähle deine Wunschfüllung aus der Mazza + Salat + Wunschsauce!<span>5,00 EUR</span></div>
+    <div>Wähle deine Wunschfüllung aus der Mazza + Salat + Wunschsauce!<span>6,00 EUR</span></div>
 </div>
