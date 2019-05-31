@@ -1,0 +1,71 @@
+/*
+Theme Name: Salibaba-Theme
+Description: customized child theme from Beaver Builder Theme
+Version: 1.0
+Author: mmai
+Author URI: https://www.mai-internet.de
+Template: bb-theme
+*/
+/**
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+body { font-family: "brandon-grotesque", sans-serif; font-size: 100%; font-style: inherit; font-weight: 400; font-size: 18px; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "brandon-grotesque", sans-serif; }
+
+h1, h2, h3, h4 { font-weight: 700; }
+
+a:hover { text-decoration: underline; }
+
+.mi-outline-black h1, .mi-outline-black h2, .mi-outline-black h3, .mi-outline-black h4, .mi-outline-black h5 { text-shadow: 1px 0 0 #1b1b1b, 0 -1px 0 #1b1b1b, 0 1px 0 #1b1b1b, -1px 0 0 #1b1b1b; }
+
+.mi-outline-white h1, .mi-outline-white h2, .mi-outline-white h3, .mi-outline-white h4, .mi-outline-white h5 { text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF; }
+
+.mi-text-shadow-black h1, .mi-text-shadow-black h2, .mi-text-shadow-black h3, .mi-text-shadow-black h4, .mi-text-shadow-black h5 { text-shadow: 2px 2px 2px #000000; }
+
+.mi-text-shadow-white h1, .mi-text-shadow-white h2, .mi-text-shadow-white h3, .mi-text-shadow-white h4, .mi-text-shadow-white h5 { text-shadow: 2px 2px 2px #FFFFFF; }
+
+.mi-text-shadow-dunkelrosa h1, .mi-text-shadow-dunkelrosa h2, .mi-text-shadow-dunkelrosa h3, .mi-text-shadow-dunkelrosa h4, .mi-text-shadow-dunkelrosa h5 { text-shadow: 2px 2px 2px #942643; }
+
+.fl-builder-content[data-type="header"].fl-theme-builder-header-shrink img { max-height: none !important; }
+
+.wpcf7-mail-sent-ok { font-size: 25px; color: #31A952; background-color: #FFF; }
+
+@media (min-width: 1200px) { html:not(.fl-builder-edit) .mi-shop { position: relative; }
+  html:not(.fl-builder-edit) .mi-shop .fl-module-content { position: absolute; top: 80px; right: -10px; z-index: 9999; padding: 0 !important; margin: 0 !important; width: 150px !important; height: 150px !important; } }
+@media (max-width: 767px) { html:not(.fl-builder-edit) .mi-shop .fl-module-content { display: none; margin: 0px auto; width: 100px !important; height: 100px !important; } }
+
+.mi-filiale .fl-col-content h1, .mi-filiale .fl-col-content h2, .mi-filiale .fl-col-content h3, .mi-filiale .fl-col-content h4, .mi-filiale .fl-col-content h5, .mi-filiale .fl-col-content h6 { color: #2D5135; }
+
+.mi-quote { text-align: center; font-size: 2em; }
+
+.uabb-adv-accordion-button { background-color: #D8AC43 !important; color: #2D5135 !important; }
+.uabb-adv-accordion-button h1, .uabb-adv-accordion-button h2, .uabb-adv-accordion-button h3, .uabb-adv-accordion-button h4, .uabb-adv-accordion-button h5, .uabb-adv-accordion-button h6 { text-transform: uppercase; color: #2D5135; }
+
+.uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button { background-color: #2D5135 !important; color: #D8AC43 !important; }
+.uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h1, .uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h2, .uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h3, .uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h4, .uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h5, .uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h6, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h1, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h2, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h3, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h4, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h5, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h6 { color: #D8AC43; }
+
+.speisekarte h3 { margin: 20px 0; color: #2D5135 !important; }
+.speisekarte ul { padding: 0; list-style-type: none; }
+.speisekarte ol { list-style-type: decimal; }
+.speisekarte li { display: flex; justify-content: space-between; margin-bottom: 15px; border-bottom: 1px dashed #EEE; }
+@media (max-width: 767px) { .speisekarte li { display: block; } }
+.speisekarte li h4:before { content: "\2022"; font-size: 1.3em; line-height: 0.8em; font-weight: 700; margin-right: 10px; float: left; }
+.speisekarte.neutral h4:before { content: ""; }
+.speisekarte .vegan h4:before { color: #3fa535; }
+.speisekarte .vegetarisch h4:before { color: #fecc00; }
+.speisekarte .meat h4:before { color: #cd1719; }
+.speisekarte > div { border-bottom: 1px dashed #EEE; padding: 5px 0; display: flex; justify-content: space-between; }
+.speisekarte > div span { white-space: nowrap; }

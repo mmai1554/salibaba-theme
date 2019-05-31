@@ -1,0 +1,196 @@
+/*
+Theme Name: Salibaba-Theme
+Description: customized child theme from Beaver Builder Theme
+Version: 1.0
+Author: mmai
+Author URI: https://www.mai-internet.de
+Template: bb-theme
+*/
+// @import "icons_vema";
+@import "mi_mixins";
+
+$color-salibaba-yellow:#D8AC43;
+$color-salibaba-green:#2D5135;
+
+body {
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: 400;
+  font-size:18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+p, li {
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.mi-outline-black {
+  h1, h2, h3, h4, h5 {
+    @include outline(#1b1b1b);
+  }
+}
+
+.mi-outline-white {
+  h1, h2, h3, h4, h5 {
+    @include outline(#FFF);
+  }
+}
+
+.mi-text-shadow-black {
+  h1, h2, h3, h4, h5 {
+    @include text-shadow(#000000);
+  }
+}
+
+.mi-text-shadow-white {
+  h1, h2, h3, h4, h5 {
+    @include text-shadow(#FFFFFF);
+  }
+}
+
+.mi-text-shadow-dunkelrosa {
+  h1, h2, h3, h4, h5 {
+    @include text-shadow(#942643);
+  }
+}
+
+.fl-builder-content[data-type="header"].fl-theme-builder-header-shrink img {
+  max-height: none !important;
+}
+
+.wpcf7-mail-sent-ok {
+  font-size: 25px;
+  color: #31A952;
+  background-color: #FFF;
+}
+
+html:not(.fl-builder-edit) {
+  .mi-shop {
+    @include bp(desktop) {
+      position: relative;
+      .fl-module-content {
+        position: absolute;
+        top: 80px;
+        right: -10px;
+        z-index: 9999;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 150px !important;
+        height: 150px !important;
+      }
+    }
+    @include bp(mobile) {
+      .fl-module-content {
+        display: none;
+        margin: 0px auto;
+        width: 100px !important;
+        height: 100px !important;
+      }
+    }
+  }
+}
+
+.mi-filiale {
+  .fl-col-content {
+    // background-color:lighten($color-salibaba-yellow, 20%);
+    h1,h2,h3,h4,h5, h6 {
+      color:$color-salibaba-green;
+    }
+    //color:#FFF;
+  }
+}
+
+.mi-quote {
+  text-align:center;
+  font-size:2em;
+}
+
+
+
+
+
+.uabb-adv-accordion-button {
+  background-color:$color-salibaba-yellow !important;
+  color:$color-salibaba-green !important;
+  h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    color:$color-salibaba-green;
+  }
+}
+
+.uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button {
+  background-color:$color-salibaba-green!important;
+  color:$color-salibaba-yellow!important;
+  h1,h2,h3,h4,h5,h6 {
+    color:$color-salibaba-yellow;
+  }
+}
+
+.speisekarte {
+  h3 {
+    margin:20px 0;
+    color:$color-salibaba-green !important;
+  }
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  ol {
+    list-style-type: decimal;
+  }
+  li {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:15px;
+    border-bottom:1px dashed #EEE;
+    @include bp(mobile) {
+      display:block;
+    }
+    h4:before {
+      content: "\2022";
+      font-size: 1.3em;
+      line-height: 0.8em;
+      font-weight: 700;
+      margin-right: 10px;
+      float: left;
+    }
+  }
+
+  &.neutral h4:before {
+    content:"";
+  }
+
+
+  .vegan h4:before {
+    color: #3fa535;
+  }
+
+  .vegetarisch h4:before {
+    color: #fecc00;
+  }
+
+  .meat h4:before {
+    color: #cd1719;
+  }
+  & > div {
+    border-bottom:1px dashed #EEE;
+    padding:5px 0;
+    display: flex;
+    justify-content: space-between;
+    span {
+      white-space: nowrap;
+    }
+  }
+}
