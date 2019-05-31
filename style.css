@@ -54,8 +54,8 @@ a:hover { text-decoration: underline; }
 .uabb-adv-accordion-button { background-color: #D8AC43 !important; color: #2D5135 !important; }
 .uabb-adv-accordion-button h1, .uabb-adv-accordion-button h2, .uabb-adv-accordion-button h3, .uabb-adv-accordion-button h4, .uabb-adv-accordion-button h5, .uabb-adv-accordion-button h6 { text-transform: uppercase; color: #2D5135; }
 
-.uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button { background-color: #2D5135 !important; color: #D8AC43 !important; }
-.uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h1, .uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h2, .uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h3, .uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h4, .uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h5, .uabb-adv-accordion-item[data-index="2"] .uabb-adv-accordion-button h6, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h1, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h2, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h3, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h4, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h5, .uabb-adv-accordion-item[data-index="5"] .uabb-adv-accordion-button h6 { color: #D8AC43; }
+.uabb-adv-accordion-item[data-index="3"] .uabb-adv-accordion-button { background-color: #2D5135 !important; color: #D8AC43 !important; }
+.uabb-adv-accordion-item[data-index="3"] .uabb-adv-accordion-button h1, .uabb-adv-accordion-item[data-index="3"] .uabb-adv-accordion-button h2, .uabb-adv-accordion-item[data-index="3"] .uabb-adv-accordion-button h3, .uabb-adv-accordion-item[data-index="3"] .uabb-adv-accordion-button h4, .uabb-adv-accordion-item[data-index="3"] .uabb-adv-accordion-button h5, .uabb-adv-accordion-item[data-index="3"] .uabb-adv-accordion-button h6 { color: #D8AC43; }
 
 .speisekarte h3 { margin: 20px 0; color: #2D5135 !important; }
 .speisekarte ul { padding: 0; list-style-type: none; }
