@@ -17,7 +17,7 @@
             <div>
                 <h4>Mokka</h4> mit Kardamom
             </div>
-            2,30 EUR
+            2,30
         </li>
     </ul>
     <h3>Kalte Getränke:</h3>
